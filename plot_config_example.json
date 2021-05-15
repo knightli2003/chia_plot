@@ -1,0 +1,53 @@
+{
+    "chia_path" : "/usr/lib/chia-blockchain/resources/app.asar.unpacked/daemon/",
+    "farmer_public_key" : "aa08472c2fbfba69d2c092f49bce52c53c0d823e414fc3bb626582cc3754ab5928b9c8674827765c51cfe954e8dddce4",
+    "pool_public_key": "a123e81da064400696422dbb5fc6453d794744d52778bdbf779ac0a51413fb1c5cc232b171abbf6813fcd8bf4b450055",
+    "global_start_interval" : 900,
+    "global_phase1_cnt" : 6,
+    "pools" : [
+        {
+            "pool_name" : "HP_800G_1",
+            "pool_run_cnt" : 3,
+            "pool_start_interval" : 3600,
+            "threads" : 8,
+            "thread_k" : 32,
+            "thread_mem" : 3390,
+            "thread_tmp_path" : "/media/plot/HP_800G_1",
+            "thread_tmp_path2" : "/media/plot/HP_800G_1",
+            "thread_target" : "/media/plot/ST_4T_01/farm2"
+        },
+        {
+            "pool_name" : "HP_800G_2",
+            "pool_run_cnt" : 3,
+            "pool_start_interval" : 3600,
+            "threads" : 8,
+            "thread_k" : 32,
+            "thread_mem" : 3390,
+            "thread_tmp_path" : "/media/plot/HP_800G_2",
+            "thread_tmp_path2" : "/media/plot/HP_800G_2",
+            "thread_target" : "/media/plot/ST_4T_01/farm2"
+        },
+        {
+            "pool_name" : "HP_800G_3",
+            "pool_run_cnt" : 3,
+            "pool_start_interval" : 3600,
+            "threads" : 8,
+            "thread_k" : 32,
+            "thread_mem" : 3390,
+            "thread_tmp_path" : "/media/plot/HP_800G_3",
+            "thread_tmp_path2" : "/media/plot/HP_800G_3",
+            "thread_target" : "/media/plot/ST_4T_01/farm2"
+        },
+        {
+            "pool_name" : "HP_900G_1",
+            "pool_run_cnt" : 3,
+            "pool_start_interval" : 3600,
+            "threads" : 8,
+            "thread_k" : 32,
+            "thread_mem" : 3390,
+            "thread_tmp_path" : "/media/plot/HP_900G_1",
+            "thread_tmp_path2" : "/media/plot/HP_900G_1",
+            "thread_target" : "/media/plot/ST_4T_01/farm2"
+        }
+    ]
+}
