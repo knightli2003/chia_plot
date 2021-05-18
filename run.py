@@ -119,7 +119,7 @@ def init_pool():
             pool['pool_run_data'] = pool_run_data
     print(plot_config)
 
-    plot_stat['start_time']
+    # plot_stat['start_time']
 
 #全部队列的最近一次运行时间
 def get_pools_last_run_time() :  
@@ -295,3 +295,4 @@ def pools_run():
 
 if __name__ == "__main__":
     pools_run()
+
